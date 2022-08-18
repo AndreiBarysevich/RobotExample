@@ -1,0 +1,10 @@
+D:\GIT\SBK\ConfigEditor\obj\Debug\ConfigEditor.Configurator.resources
+D:\GIT\SBK\ConfigEditor\obj\Debug\ConfigEditor.Properties.Resources.resources
+D:\GIT\SBK\ConfigEditor\obj\Debug\ConfigEditor.csproj.GenerateResource.cache
+D:\GIT\SBK\ConfigEditor\obj\Debug\ConfigEditor.csproj.CoreCompileInputs.cache
+D:\GIT\SBK\ConfigEditor\bin\Debug\ConfigEditor.exe.config
+D:\GIT\SBK\ConfigEditor\bin\Debug\ConfigEditor.exe
+D:\GIT\SBK\ConfigEditor\bin\Debug\ConfigEditor.pdb
+D:\GIT\SBK\ConfigEditor\obj\Debug\ConfigEditor.exe
+D:\GIT\SBK\ConfigEditor\obj\Debug\ConfigEditor.pdb
+D:\Git\SBK\ConfigEditor\obj\Debug\ConfigEditor.csprojResolveAssemblyReference.cache

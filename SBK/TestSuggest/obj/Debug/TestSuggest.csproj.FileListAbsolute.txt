@@ -1,0 +1,7 @@
+D:\GIT\SBK\TestSuggest\obj\Debug\TestSuggest.csprojAssemblyReference.cache
+D:\GIT\SBK\TestSuggest\obj\Debug\TestSuggest.csproj.CoreCompileInputs.cache
+D:\GIT\SBK\TestSuggest\bin\Debug\TestSuggest.exe.config
+D:\GIT\SBK\TestSuggest\bin\Debug\TestSuggest.exe
+D:\GIT\SBK\TestSuggest\bin\Debug\TestSuggest.pdb
+D:\GIT\SBK\TestSuggest\obj\Debug\TestSuggest.exe
+D:\GIT\SBK\TestSuggest\obj\Debug\TestSuggest.pdb

@@ -1,0 +1,6 @@
+D:\GIT\SBK\Config\bin\Debug\Config.dll
+D:\GIT\SBK\Config\bin\Debug\Config.pdb
+D:\GIT\SBK\Config\obj\Debug\Config.csproj.CoreCompileInputs.cache
+D:\GIT\SBK\Config\obj\Debug\Config.dll
+D:\GIT\SBK\Config\obj\Debug\Config.pdb
+D:\Git\SBK\Config\obj\Debug\Config.csprojResolveAssemblyReference.cache

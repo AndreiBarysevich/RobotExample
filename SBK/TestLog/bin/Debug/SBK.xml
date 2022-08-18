@@ -1,0 +1,4388 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SBK</name>
+    </assembly>
+    <members>
+        <member name="T:Файл">
+            <remarks/>
+        </member>
+        <member name="P:Файл.Документ">
+            <remarks/>
+        </member>
+        <member name="P:Файл.ИдФайл">
+            <remarks/>
+        </member>
+        <member name="P:Файл.ВерсПрог">
+            <remarks/>
+        </member>
+        <member name="P:Файл.ВерсФорм">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокумент">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокумент.СвНП">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокумент.Подписант">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокумент.Баланс">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокумент.ПрибУб">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокумент.ОтчетИзмКап">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокумент.ДвижениеДен">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокумент.ЦелИсп">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокумент.ДополнительныеСведения">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокумент.РасшифровкиОбеспечений">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокумент.ЗадолженностьПоКредитамЗаймам">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокумент.ЛизингОбязательства">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокумент.ДенежныеСредства">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокумент.ОСВ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокумент.ОСВПоСчетам">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокумент.АнализСчетов">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокумент.БухОтчНО">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокумент.ОперБанкСч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокумент.ПрочДохРасх">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокумент.РасшФинВлож">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокумент.СтруктВыр">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокумент.ПрочиеПоказатели">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокумент.ДебКредЗадолж">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокумент.ДеклПрибыль">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокумент.ДеклНДС">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокумент.СпрИспОбУплНал">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокумент.ДопФайлы">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокумент.ПутьДоОригинала">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументСвНП">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументСвНП.Item">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументСвНПНПФЛ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументСвНПНПФЛ.ФИО">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументСвНПНПФЛ.ИННФЛ">
+            <remarks/>
+        </member>
+        <member name="T:ФИОТип">
+            <remarks/>
+        </member>
+        <member name="P:ФИОТип.Фамилия">
+            <remarks/>
+        </member>
+        <member name="P:ФИОТип.Имя">
+            <remarks/>
+        </member>
+        <member name="P:ФИОТип.Отчество">
+            <remarks/>
+        </member>
+        <member name="T:ФинВложенияТип">
+            <remarks/>
+        </member>
+        <member name="P:ФинВложенияТип.Вложение">
+            <remarks/>
+        </member>
+        <member name="P:ФинВложенияТип.ИтогоСтоимВл">
+            <remarks/>
+        </member>
+        <member name="P:ФинВложенияТип.ИтогоПросрЗад">
+            <remarks/>
+        </member>
+        <member name="P:ФинВложенияТип.ИтогоПросрЗадSpecified">
+            <remarks/>
+        </member>
+        <member name="T:ФинВложенияТипВложение">
+            <remarks/>
+        </member>
+        <member name="P:ФинВложенияТипВложение.Контрагент">
+            <remarks/>
+        </member>
+        <member name="P:ФинВложенияТипВложение.ПросрЗад">
+            <remarks/>
+        </member>
+        <member name="P:ФинВложенияТипВложение.Коммент">
+            <remarks/>
+        </member>
+        <member name="P:ФинВложенияТипВложение.Вид">
+            <remarks/>
+        </member>
+        <member name="P:ФинВложенияТипВложение.ДатаПриобр">
+            <remarks/>
+        </member>
+        <member name="P:ФинВложенияТипВложение.ДатаВыб">
+            <remarks/>
+        </member>
+        <member name="P:ФинВложенияТипВложение.СтоимВл">
+            <remarks/>
+        </member>
+        <member name="P:ФинВложенияТипВложение.КодВал">
+            <remarks/>
+        </member>
+        <member name="P:ФинВложенияТипВложение.СтоимВлВал">
+            <remarks/>
+        </member>
+        <member name="P:ФинВложенияТипВложение.СтоимВлВалSpecified">
+            <remarks/>
+        </member>
+        <member name="T:ФинВложенияТипВложениеКонтрагент">
+            <remarks/>
+        </member>
+        <member name="P:ФинВложенияТипВложениеКонтрагент.Наименование">
+            <remarks/>
+        </member>
+        <member name="P:ФинВложенияТипВложениеКонтрагент.ИНН">
+            <remarks/>
+        </member>
+        <member name="T:ФинВложенияТипВложениеПросрЗад">
+            <remarks/>
+        </member>
+        <member name="P:ФинВложенияТипВложениеПросрЗад.ДатаВозн">
+            <remarks/>
+        </member>
+        <member name="P:ФинВложенияТипВложениеПросрЗад.Сумма">
+            <remarks/>
+        </member>
+        <member name="P:ФинВложенияТипВложениеПросрЗад.СуммаВал">
+            <remarks/>
+        </member>
+        <member name="P:ФинВложенияТипВложениеПросрЗад.СуммаВалSpecified">
+            <remarks/>
+        </member>
+        <member name="T:СубконтоПоПредставлениюТип">
+            <remarks/>
+        </member>
+        <member name="P:СубконтоПоПредставлениюТип.Представление">
+            <remarks/>
+        </member>
+        <member name="P:СубконтоПоПредставлениюТип.ТипСубконто">
+            <remarks/>
+        </member>
+        <member name="P:СубконтоПоПредставлениюТип.ИНН">
+            <remarks/>
+        </member>
+        <member name="T:БанковскийСчетТип">
+            <remarks/>
+        </member>
+        <member name="P:БанковскийСчетТип.Наименование">
+            <remarks/>
+        </member>
+        <member name="P:БанковскийСчетТип.НаименованиеБанка">
+            <remarks/>
+        </member>
+        <member name="P:БанковскийСчетТип.БИК">
+            <remarks/>
+        </member>
+        <member name="P:БанковскийСчетТип.НомерСчета">
+            <remarks/>
+        </member>
+        <member name="T:КонтрагентТип">
+            <remarks/>
+        </member>
+        <member name="P:КонтрагентТип.Наименование">
+            <remarks/>
+        </member>
+        <member name="P:КонтрагентТип.ИНН">
+            <remarks/>
+        </member>
+        <member name="P:КонтрагентТип.КПП">
+            <remarks/>
+        </member>
+        <member name="T:СтрокаКредЗаймТочн3Тип">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3Тип.Счет">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3Тип.ПросрЗад">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3Тип.Обесп">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3Тип.Коммент">
+            <remarks/>
+        </member>
+        <member name="T:СтрокаКредЗаймТочн3ТипСчет">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.Контрагент">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.Договор">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.КодСчета">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.НаименованиеСчета">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.ТипСчета">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.ТипСчетаSpecified">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.КодСчетаР">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.ТипСчетаР">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.ТипСчетаРSpecified">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.КодСчетаРР">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.ТипСчетаРР">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.ТипСчетаРРSpecified">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.СНД">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.СНДSpecified">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.СНК">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.СНКSpecified">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.ДО">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.ДОSpecified">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.КО">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.КОSpecified">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.СКД">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.СКДSpecified">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.СКК">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.СНДВал">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.СНДВалSpecified">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.СНКВал">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.СНКВалSpecified">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.ДОВал">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.ДОВалSpecified">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.КОВал">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.КОВалSpecified">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.СКДВал">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.СКДВалSpecified">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.СККВал">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчет.СККВалSpecified">
+            <remarks/>
+        </member>
+        <member name="T:СтрокаКредЗаймТочн3ТипСчетКонтрагент">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчетКонтрагент.Наименование">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчетКонтрагент.ИНН">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчетКонтрагент.КПП">
+            <remarks/>
+        </member>
+        <member name="T:СтрокаКредЗаймТочн3ТипСчетДоговор">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчетДоговор.ДатаПлатежа">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчетДоговор.Представление">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчетДоговор.Номер">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчетДоговор.Дата">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчетДоговор.СрокПогашения">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчетДоговор.Продукт">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчетДоговор.СуммаПоДоговору">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчетДоговор.СуммаПоДоговоруSpecified">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчетДоговор.КодВалюты">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчетДоговор.Ставка">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчетДоговор.СтавкаSpecified">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчетДоговор.СумДогВал">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчетДоговор.СумДогВалSpecified">
+            <remarks/>
+        </member>
+        <member name="T:СтрокаКредЗаймТочн3ТипСчетДоговорДатаПлатежа">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчетДоговорДатаПлатежа.Дата">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчетДоговорДатаПлатежа.Сумма">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчетДоговорДатаПлатежа.СуммаSpecified">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчетДоговорДатаПлатежа.ОснДолг">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчетДоговорДатаПлатежа.ОснДолгSpecified">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчетДоговорДатаПлатежа.СуммаВал">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчетДоговорДатаПлатежа.СуммаВалSpecified">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчетДоговорДатаПлатежа.ОснДолгВал">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипСчетДоговорДатаПлатежа.ОснДолгВалSpecified">
+            <remarks/>
+        </member>
+        <member name="T:СтрокаОСВСТочностью3ТипСчетТипСчета">
+            <remarks/>
+        </member>
+        <member name="F:СтрокаОСВСТочностью3ТипСчетТипСчета.А">
+            <remarks/>
+        </member>
+        <member name="F:СтрокаОСВСТочностью3ТипСчетТипСчета.АП">
+            <remarks/>
+        </member>
+        <member name="F:СтрокаОСВСТочностью3ТипСчетТипСчета.П">
+            <remarks/>
+        </member>
+        <member name="T:СтрокаКредЗаймТочн3ТипПросрЗад">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипПросрЗад.ДатаОбраз">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипПросрЗад.ДатаПогаш">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипПросрЗад.Сумма">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипПросрЗад.СуммаВал">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипПросрЗад.СуммаВалSpecified">
+            <remarks/>
+        </member>
+        <member name="T:СтрокаКредЗаймТочн3ТипОбесп">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипОбесп.ВидОбесп">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаКредЗаймТочн3ТипОбесп.ДатаОбесп">
+            <remarks/>
+        </member>
+        <member name="T:СтрокаОСВСТочностью3Тип">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3Тип.Счет">
+            <remarks/>
+        </member>
+        <member name="T:СтрокаОСВСТочностью3ТипСчет">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчет.Контрагент">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчет.Договор">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчет.ДокументРасчетов">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчет.ВидДоходаРасхода">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчет.КодСчета">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчет.НаименованиеСчета">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчет.ТипСчета">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчет.КодСчетаР">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчет.ТипСчетаР">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчет.ТипСчетаРSpecified">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчет.КодСчетаРР">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчет.ТипСчетаРР">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчет.ТипСчетаРРSpecified">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчет.СНД">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчет.СНК">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчет.ДО">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчет.КО">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчет.СКД">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчет.СКК">
+            <remarks/>
+        </member>
+        <member name="T:СтрокаОСВСТочностью3ТипСчетКонтрагент">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчетКонтрагент.Наименование">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчетКонтрагент.ИНН">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчетКонтрагент.КПП">
+            <remarks/>
+        </member>
+        <member name="T:СтрокаОСВСТочностью3ТипСчетДоговор">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчетДоговор.ДатаПлатежа">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчетДоговор.Представление">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчетДоговор.Номер">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчетДоговор.Дата">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчетДоговор.СрокОплаты">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчетДоговор.СрокПогашения">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчетДоговор.СрокОкончания">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчетДоговор.Продукт">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчетДоговор.СуммаПоДоговору">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчетДоговор.СуммаПоДоговоруSpecified">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчетДоговор.КодВалюты">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчетДоговор.Ставка">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчетДоговор.СтавкаSpecified">
+            <remarks/>
+        </member>
+        <member name="T:СтрокаОСВСТочностью3ТипСчетДоговорДатаПлатежа">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчетДоговорДатаПлатежа.Дата">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчетДоговорДатаПлатежа.Сумма">
+            <remarks/>
+        </member>
+        <member name="T:СтрокаОСВСТочностью3ТипСчетДокументРасчетов">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчетДокументРасчетов.Представление">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчетДокументРасчетов.Номер">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчетДокументРасчетов.Дата">
+            <remarks/>
+        </member>
+        <member name="T:СтрокаОСВСТочностью3ТипСчетВидДоходаРасхода">
+            <remarks/>
+        </member>
+        <member name="P:СтрокаОСВСТочностью3ТипСчетВидДоходаРасхода.Наименование">
+            <remarks/>
+        </member>
+        <member name="T:ОП_ДТип">
+            <remarks/>
+        </member>
+        <member name="P:ОП_ДТип.ВПокОП">
+            <remarks/>
+        </member>
+        <member name="P:ОП_ДТип.СумОтч">
+            <remarks/>
+        </member>
+        <member name="P:ОП_ДТип.СумПред">
+            <remarks/>
+        </member>
+        <member name="T:ВПокОПТип">
+            <remarks/>
+        </member>
+        <member name="P:ВПокОПТип.НаимПок">
+            <remarks/>
+        </member>
+        <member name="P:ВПокОПТип.СумОтч">
+            <remarks/>
+        </member>
+        <member name="P:ВПокОПТип.СумПред">
+            <remarks/>
+        </member>
+        <member name="T:ОПТип">
+            <remarks/>
+        </member>
+        <member name="P:ОПТип.СумОтч">
+            <remarks/>
+        </member>
+        <member name="P:ОПТип.СумПред">
+            <remarks/>
+        </member>
+        <member name="T:КорКапПрТип">
+            <remarks/>
+        </member>
+        <member name="P:КорКапПрТип.На31ДекПрПред">
+            <remarks/>
+        </member>
+        <member name="P:КорКапПрТип.ИзмКапЧистПр">
+            <remarks/>
+        </member>
+        <member name="P:КорКапПрТип.ИзмКапИнФакт">
+            <remarks/>
+        </member>
+        <member name="P:КорКапПрТип.На31ДекПред">
+            <remarks/>
+        </member>
+        <member name="T:КорКапТип">
+            <remarks/>
+        </member>
+        <member name="P:КорКапТип.ДоКоррект">
+            <remarks/>
+        </member>
+        <member name="P:КорКапТип.КорИзмУчПол">
+            <remarks/>
+        </member>
+        <member name="P:КорКапТип.КорИспрОш">
+            <remarks/>
+        </member>
+        <member name="P:КорКапТип.ПослеКоррект">
+            <remarks/>
+        </member>
+        <member name="T:ВПокДвижКапПГод">
+            <remarks/>
+        </member>
+        <member name="P:ВПокДвижКапПГод.НаимПок">
+            <remarks/>
+        </member>
+        <member name="P:ВПокДвижКапПГод.УстКапитал">
+            <remarks/>
+        </member>
+        <member name="P:ВПокДвижКапПГод.СобВыкупАкц">
+            <remarks/>
+        </member>
+        <member name="P:ВПокДвижКапПГод.ДобКапитал">
+            <remarks/>
+        </member>
+        <member name="P:ВПокДвижКапПГод.РезКапитал">
+            <remarks/>
+        </member>
+        <member name="P:ВПокДвижКапПГод.НераспПриб">
+            <remarks/>
+        </member>
+        <member name="P:ВПокДвижКапПГод.Итог">
+            <remarks/>
+        </member>
+        <member name="T:ДвижКапГодТип">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТип.УвеличКапитал">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТип.УменКапитал">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТип.ИзмДобавКап">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТип.ИзмРезервКап">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТип.ВПокДвижКап">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТип.Кап31дек">
+            <remarks/>
+        </member>
+        <member name="T:ДвижКапГодТипУвеличКапитал">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУвеличКапитал.УвеличКапВс">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУвеличКапитал.ЧистПриб">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУвеличКапитал.ПереоцИмущ">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУвеличКапитал.ДохУвелКап">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУвеличКапитал.ДопВыпАкций">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУвеличКапитал.УвеличНомАкц">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУвеличКапитал.Реорганизация">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУвеличКапитал.ВПокУвелКап">
+            <remarks/>
+        </member>
+        <member name="T:ДвижКапПГод">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапПГод.УстКапитал">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапПГод.СобВыкупАкц">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапПГод.ДобКапитал">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапПГод.РезКапитал">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапПГод.НераспПриб">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапПГод.Итог">
+            <remarks/>
+        </member>
+        <member name="T:ДвижКапГодТипУвеличКапиталЧистПриб">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУвеличКапиталЧистПриб.НераспПриб">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУвеличКапиталЧистПриб.Итог">
+            <remarks/>
+        </member>
+        <member name="T:ДвижКапГодТипУвеличКапиталПереоцИмущ">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУвеличКапиталПереоцИмущ.ДобКапитал">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУвеличКапиталПереоцИмущ.НераспПриб">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУвеличКапиталПереоцИмущ.Итог">
+            <remarks/>
+        </member>
+        <member name="T:ДвижКапГодТипУвеличКапиталДохУвелКап">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУвеличКапиталДохУвелКап.ДобКапитал">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУвеличКапиталДохУвелКап.НераспПриб">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУвеличКапиталДохУвелКап.Итог">
+            <remarks/>
+        </member>
+        <member name="T:ДвижКапГодТипУвеличКапиталДопВыпАкций">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУвеличКапиталДопВыпАкций.УстКапитал">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУвеличКапиталДопВыпАкций.СобВыкупАкц">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУвеличКапиталДопВыпАкций.ДобКапитал">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУвеличКапиталДопВыпАкций.Итог">
+            <remarks/>
+        </member>
+        <member name="T:ДвижКапГодТипУвеличКапиталУвеличНомАкц">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУвеличКапиталУвеличНомАкц.УстКапитал">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУвеличКапиталУвеличНомАкц.СобВыкупАкц">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУвеличКапиталУвеличНомАкц.ДобКапитал">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУвеличКапиталУвеличНомАкц.НераспПриб">
+            <remarks/>
+        </member>
+        <member name="T:ДвижКапГодТипУменКапитал">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУменКапитал.УменКапВс">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУменКапитал.Убыток">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУменКапитал.ПереоцИмущ">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУменКапитал.РасхУменКап">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУменКапитал.УменНомАкц">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУменКапитал.УменКолАкций">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУменКапитал.Реорганизация">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУменКапитал.Дивиденды">
+            <remarks/>
+        </member>
+        <member name="T:ДвижКапГодТипУменКапиталУбыток">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУменКапиталУбыток.НераспПриб">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУменКапиталУбыток.Итог">
+            <remarks/>
+        </member>
+        <member name="T:ДвижКапГодТипУменКапиталПереоцИмущ">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУменКапиталПереоцИмущ.ДобКапитал">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУменКапиталПереоцИмущ.НераспПриб">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУменКапиталПереоцИмущ.Итог">
+            <remarks/>
+        </member>
+        <member name="T:ДвижКапГодТипУменКапиталРасхУменКап">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУменКапиталРасхУменКап.ДобКапитал">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУменКапиталРасхУменКап.НераспПриб">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУменКапиталРасхУменКап.Итог">
+            <remarks/>
+        </member>
+        <member name="T:ДвижКапГодТипУменКапиталУменНомАкц">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУменКапиталУменНомАкц.УстКапитал">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУменКапиталУменНомАкц.СобВыкупАкц">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУменКапиталУменНомАкц.ДобКапитал">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУменКапиталУменНомАкц.НераспПриб">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУменКапиталУменНомАкц.Итог">
+            <remarks/>
+        </member>
+        <member name="T:ДвижКапГодТипУменКапиталУменКолАкций">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУменКапиталУменКолАкций.УстКапитал">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУменКапиталУменКолАкций.СобВыкупАкц">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУменКапиталУменКолАкций.ДобКапитал">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУменКапиталУменКолАкций.НераспПриб">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУменКапиталУменКолАкций.Итог">
+            <remarks/>
+        </member>
+        <member name="T:ДвижКапГодТипУменКапиталДивиденды">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУменКапиталДивиденды.НераспПриб">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипУменКапиталДивиденды.Итог">
+            <remarks/>
+        </member>
+        <member name="T:ДвижКапГодТипИзмДобавКап">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипИзмДобавКап.ДобКапитал">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипИзмДобавКап.РезКапитал">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипИзмДобавКап.НераспПриб">
+            <remarks/>
+        </member>
+        <member name="T:ДвижКапГодТипИзмРезервКап">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипИзмРезервКап.РезКапитал">
+            <remarks/>
+        </member>
+        <member name="P:ДвижКапГодТипИзмРезервКап.НераспПриб">
+            <remarks/>
+        </member>
+        <member name="T:ОтчПредОТип">
+            <remarks/>
+        </member>
+        <member name="P:ОтчПредОТип.Пояснения">
+            <remarks/>
+        </member>
+        <member name="P:ОтчПредОТип.СумОтч">
+            <remarks/>
+        </member>
+        <member name="P:ОтчПредОТип.СумПред">
+            <remarks/>
+        </member>
+        <member name="T:ОтчПредНТип">
+            <remarks/>
+        </member>
+        <member name="P:ОтчПредНТип.Пояснения">
+            <remarks/>
+        </member>
+        <member name="P:ОтчПредНТип.СумОтч">
+            <remarks/>
+        </member>
+        <member name="P:ОтчПредНТип.СумПред">
+            <remarks/>
+        </member>
+        <member name="T:ОтчПредОДопТип">
+            <remarks/>
+        </member>
+        <member name="P:ОтчПредОДопТип.ДопПокОП">
+            <remarks/>
+        </member>
+        <member name="P:ОтчПредОДопТип.Пояснения">
+            <remarks/>
+        </member>
+        <member name="P:ОтчПредОДопТип.СумОтч">
+            <remarks/>
+        </member>
+        <member name="P:ОтчПредОДопТип.СумПред">
+            <remarks/>
+        </member>
+        <member name="T:ДопПокОПТип">
+            <remarks/>
+        </member>
+        <member name="P:ДопПокОПТип.Пояснения">
+            <remarks/>
+        </member>
+        <member name="P:ДопПокОПТип.НаимПок">
+            <remarks/>
+        </member>
+        <member name="P:ДопПокОПТип.СумОтч">
+            <remarks/>
+        </member>
+        <member name="P:ДопПокОПТип.СумПред">
+            <remarks/>
+        </member>
+        <member name="T:ОтчПредНДопТип">
+            <remarks/>
+        </member>
+        <member name="P:ОтчПредНДопТип.ДопПокОП">
+            <remarks/>
+        </member>
+        <member name="P:ОтчПредНДопТип.Пояснения">
+            <remarks/>
+        </member>
+        <member name="P:ОтчПредНДопТип.СумОтч">
+            <remarks/>
+        </member>
+        <member name="P:ОтчПредНДопТип.СумПред">
+            <remarks/>
+        </member>
+        <member name="T:ВПокОППТип">
+            <remarks/>
+        </member>
+        <member name="P:ВПокОППТип.Пояснения">
+            <remarks/>
+        </member>
+        <member name="P:ВПокОППТип.НаимПок">
+            <remarks/>
+        </member>
+        <member name="P:ВПокОППТип.СумОтч">
+            <remarks/>
+        </member>
+        <member name="P:ВПокОППТип.СумПрдщ">
+            <remarks/>
+        </member>
+        <member name="P:ВПокОППТип.СумПрдшв">
+            <remarks/>
+        </member>
+        <member name="T:ОПП_ВПТип">
+            <remarks/>
+        </member>
+        <member name="P:ОПП_ВПТип.ВПокОПП">
+            <remarks/>
+        </member>
+        <member name="P:ОПП_ВПТип.Пояснения">
+            <remarks/>
+        </member>
+        <member name="P:ОПП_ВПТип.СумОтч">
+            <remarks/>
+        </member>
+        <member name="P:ОПП_ВПТип.СумПрдщ">
+            <remarks/>
+        </member>
+        <member name="P:ОПП_ВПТип.СумПрдшв">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументСвНПНПЮЛ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументСвНПНПЮЛ.НаимОрг">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументСвНПНПЮЛ.НаимОргКраткое">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументСвНПНПЮЛ.ИННЮЛ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументСвНПНПЮЛ.КПП">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПодписант">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПодписант.ФИО">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПодписант.СвПред">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПодписант.ПрПодп">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПодписантСвПред">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПодписантСвПред.НаимДок">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПодписантПрПодп">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументПодписантПрПодп.Item1">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументПодписантПрПодп.Item2">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументБаланс">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБаланс.Актив">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБаланс.Пассив">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБаланс.ПроцентРаспознавания">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБаланс.ОКУД">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБаланс.Период">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБаланс.ОтчетГод">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБаланс.ОКЕИ">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументБалансАктив">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансАктив.ВнеОбА">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансАктив.ОбА">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансАктив.Пояснения">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансАктив.СумОтч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансАктив.СумПрдщ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансАктив.СумПрдшв">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументБалансАктивВнеОбА">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансАктивВнеОбА.НематАкт">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансАктивВнеОбА.РезИсслед">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансАктивВнеОбА.НеМатПоискАкт">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансАктивВнеОбА.МатПоискАкт">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансАктивВнеОбА.ОснСр">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансАктивВнеОбА.ВлМатЦен">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансАктивВнеОбА.ФинВлож">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансАктивВнеОбА.ОтлНалАкт">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансАктивВнеОбА.ВПокВнеОбА">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансАктивВнеОбА.ПрочВнеОбА">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансАктивВнеОбА.Пояснения">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансАктивВнеОбА.СумОтч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансАктивВнеОбА.СумПрдщ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансАктивВнеОбА.СумПрдшв">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументБалансАктивОбА">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансАктивОбА.Запасы">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансАктивОбА.НДСПриобрЦен">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансАктивОбА.ДебЗад">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансАктивОбА.ФинВлож">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансАктивОбА.ДенежнСр">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансАктивОбА.ВПокОбА">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансАктивОбА.ПрочОбА">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансАктивОбА.Пояснения">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансАктивОбА.СумОтч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансАктивОбА.СумПрдщ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансАктивОбА.СумПрдшв">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументБалансПассив">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассив.Item">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассив.ДолгосрОбяз">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассив.КраткосрОбяз">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассив.Пояснения">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассив.СумОтч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассив.СумПрдщ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассив.СумПрдшв">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументБалансПассивКапРез">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивКапРез.УставКапитал">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивКапРез.СобствАкции">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивКапРез.ПереоцВнеОбА">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивКапРез.ДобКапитал">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивКапРез.РезКапитал">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивКапРез.НераспПриб">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивКапРез.ВПокКапРез">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивКапРез.Пояснения">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивКапРез.СумОтч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивКапРез.СумПрдщ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивКапРез.СумПрдшв">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументБалансПассивЦелевФин">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивЦелевФин.ПайФонд">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивЦелевФин.ЦелевКапитал">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивЦелевФин.ЦелевСредства">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивЦелевФин.ФондИмущ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивЦелевФин.РезервИнЦФ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивЦелевФин.ВПокЦелФин">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивЦелевФин.Пояснения">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивЦелевФин.СумОтч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивЦелевФин.СумПрдщ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивЦелевФин.СумПрдшв">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументБалансПассивДолгосрОбяз">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивДолгосрОбяз.ЗаемСредств">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивДолгосрОбяз.ОтложНалОбяз">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивДолгосрОбяз.ОценОбяз">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивДолгосрОбяз.ВПокДолгОб">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивДолгосрОбяз.ПрочОбяз">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивДолгосрОбяз.Пояснения">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивДолгосрОбяз.СумОтч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивДолгосрОбяз.СумПрдщ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивДолгосрОбяз.СумПрдшв">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументБалансПассивКраткосрОбяз">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивКраткосрОбяз.ЗаемСредств">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивКраткосрОбяз.КредитЗадолж">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивКраткосрОбяз.ДоходБудущ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивКраткосрОбяз.ОценОбяз">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивКраткосрОбяз.ВПокКратОб">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивКраткосрОбяз.ПрочОбяз">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивКраткосрОбяз.Пояснения">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивКраткосрОбяз.СумОтч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивКраткосрОбяз.СумПрдщ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументБалансПассивКраткосрОбяз.СумПрдшв">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументБалансОКУД">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументБалансОКУД.Item0710001">
+            <remarks/>
+        </member>
+        <member name="T:ПериодКварталТип">
+            <remarks/>
+        </member>
+        <member name="F:ПериодКварталТип.Item21">
+            <remarks/>
+        </member>
+        <member name="F:ПериодКварталТип.Item31">
+            <remarks/>
+        </member>
+        <member name="F:ПериодКварталТип.Item33">
+            <remarks/>
+        </member>
+        <member name="F:ПериодКварталТип.Item34">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументБалансОКЕИ">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументБалансОКЕИ.Item384">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументБалансОКЕИ.Item385">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПрибУб">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрибУб.Выруч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрибУб.СебестПрод">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрибУб.ВаловаяПрибыль">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрибУб.КомРасход">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрибУб.УпрРасход">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрибУб.ПрибПрод">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрибУб.ДоходОтУчаст">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрибУб.ПроцПолуч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрибУб.ПроцУпл">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрибУб.ПрочДоход">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрибУб.ПрочРасход">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрибУб.ПрибУбДоНал">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрибУб.ТекНалПриб">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрибУб.ПостНалОбяз">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрибУб.ИзмНалОбяз">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрибУб.ИзмНалАктив">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрибУб.Прочее">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрибУб.ЧистПрибУб">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрибУб.РезПрцВОАНеЧист">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрибУб.РезПрОпНеЧист">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрибУб.СовФинРез">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрибУб.Справочно">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрибУб.ПроцентРаспознавания">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрибУб.ОКУД">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрибУб.Период">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрибУб.ОтчетГод">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрибУб.ОКЕИ">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПрибУбСправочно">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрибУбСправочно.БазПрибылАкц">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрибУбСправочно.РазводПрибылАкц">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПрибУбОКУД">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументПрибУбОКУД.Item0710002">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПрибУбОКЕИ">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументПрибУбОКЕИ.Item384">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументПрибУбОКЕИ.Item385">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументОтчетИзмКап">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОтчетИзмКап.ДвиженКап">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОтчетИзмКап.Коррект">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОтчетИзмКап.ЧистАктив">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОтчетИзмКап.ПроцентРаспознавания">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОтчетИзмКап.ОКУД">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОтчетИзмКап.Период">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОтчетИзмКап.ОтчетГод">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОтчетИзмКап.ОКЕИ">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументОтчетИзмКапДвиженКап">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОтчетИзмКапДвиженКап.Кап31ДекПред">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОтчетИзмКапДвиженКап.ПредГод">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОтчетИзмКапДвиженКап.ОтчетГод">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументОтчетИзмКапКоррект">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОтчетИзмКапКоррект.КапитВс">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОтчетИзмКапКоррект.НераспПриб">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОтчетИзмКапКоррект.ДрСтатКап">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументОтчетИзмКапЧистАктив">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОтчетИзмКапЧистАктив.На31ДекОтч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОтчетИзмКапЧистАктив.На31ДекПред">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОтчетИзмКапЧистАктив.На31ДекПрПред">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументОтчетИзмКапОКУД">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументОтчетИзмКапОКУД.Item0710003">
+            <remarks/>
+        </member>
+        <member name="T:ПериодГодТип">
+            <remarks/>
+        </member>
+        <member name="F:ПериодГодТип.Item34">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументОтчетИзмКапОКЕИ">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументОтчетИзмКапОКЕИ.Item384">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументОтчетИзмКапОКЕИ.Item385">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДвижениеДен">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДен.ТекОпер">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДен.ИнвОпер">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДен.ФинОпер">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДен.СальдоОтч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДен.ОстНачОтч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДен.ОстКонОтч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДен.ВлИзмКурс">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДен.ПроцентРаспознавания">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДен.ОКУД">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДен.Период">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДен.ОтчетГод">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДен.ОКЕИ">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДвижениеДенТекОпер">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенТекОпер.СальдоТек">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенТекОпер.Поступ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенТекОпер.Платеж">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДвижениеДенТекОперПоступ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенТекОперПоступ.ПродПТРУ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенТекОперПоступ.АрЛицИнПлат">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенТекОперПоступ.ПродФинВлож">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенТекОперПоступ.ВПокТекПост">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенТекОперПоступ.ПрочПоступ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенТекОперПоступ.СумОтч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенТекОперПоступ.СумПред">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДвижениеДенТекОперПлатеж">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенТекОперПлатеж.ПоставСМРУ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенТекОперПлатеж.ОплатТрудРаб">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенТекОперПлатеж.ПроцДолгОбяз">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенТекОперПлатеж.НалогПриб">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенТекОперПлатеж.ВПокТекПлат">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенТекОперПлатеж.ПрочПлатеж">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенТекОперПлатеж.СумОтч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенТекОперПлатеж.СумПред">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДвижениеДенИнвОпер">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенИнвОпер.СальдоИнв">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенИнвОпер.Поступ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенИнвОпер.Платеж">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДвижениеДенИнвОперПоступ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенИнвОперПоступ.ПродВнАктив">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенИнвОперПоступ.ПродАкцДр">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенИнвОперПоступ.ВозврЗаймЦБ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенИнвОперПоступ.ДивПроц">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенИнвОперПоступ.ВПокИнвПост">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенИнвОперПоступ.ПрочПоступ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенИнвОперПоступ.СумОтч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенИнвОперПоступ.СумПред">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДвижениеДенИнвОперПлатеж">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенИнвОперПлатеж.ПриобрВнАктив">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенИнвОперПлатеж.ПриобрАкцДр">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенИнвОперПлатеж.ПриобрДолгЦБ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенИнвОперПлатеж.ПроцДолгОб">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенИнвОперПлатеж.ВПокИнвПлат">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенИнвОперПлатеж.ПрочПлатеж">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенИнвОперПлатеж.СумОтч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенИнвОперПлатеж.СумПред">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДвижениеДенФинОпер">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенФинОпер.СальдоФин">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенФинОпер.Поступ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенФинОпер.Платеж">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДвижениеДенФинОперПоступ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенФинОперПоступ.КредЗайм">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенФинОперПоступ.ВкладСоб">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенФинОперПоступ.АкцДол">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенФинОперПоступ.ОблВексДр">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенФинОперПоступ.ВПокФинПост">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенФинОперПоступ.ПрочПоступ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенФинОперПоступ.СумОтч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенФинОперПоступ.СумПред">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДвижениеДенФинОперПлатеж">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенФинОперПлатеж.ВыкупАкц">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенФинОперПлатеж.УплДивИн">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенФинОперПлатеж.ВыкВексКЗ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенФинОперПлатеж.ВПокФинПлат">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенФинОперПлатеж.ПрочПлатеж">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенФинОперПлатеж.СумОтч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДвижениеДенФинОперПлатеж.СумПред">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДвижениеДенОКУД">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументДвижениеДенОКУД.Item0710004">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДвижениеДенОКЕИ">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументДвижениеДенОКЕИ.Item384">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументДвижениеДенОКЕИ.Item385">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументЦелИсп">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИсп.ОстатНачОтч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИсп.Поступило">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИсп.Использовано">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИсп.ОстатКонОтч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИсп.ПроцентРаспознавания">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИсп.ОКУД">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИсп.Период">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИсп.ОтчетГод">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИсп.ОКЕИ">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументЦелИспПоступило">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИспПоступило.ВступВзнос">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИспПоступило.ЧленВзнос">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИспПоступило.ЦелевВзнос">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИспПоступило.ДобрИмВзнос">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИспПоступило.ПрибПредДеят">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИспПоступило.ВПокПоступ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИспПоступило.Прочие">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИспПоступило.СумОтч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИспПоступило.СумПред">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументЦелИспИспользовано">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИспИспользовано.РасхЦелМер">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИспИспользовано.РасхСодАУ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИспИспользовано.ПриобОСИн">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИспИспользовано.ВПокИспольз">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИспИспользовано.Прочие">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИспИспользовано.СумОтч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИспИспользовано.СумПред">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументЦелИспИспользованоРасхЦелМер">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИспИспользованоРасхЦелМер.СоцПом">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИспИспользованоРасхЦелМер.ПровСемин">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИспИспользованоРасхЦелМер.ВПокЦелМер">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИспИспользованоРасхЦелМер.ИныеМер">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИспИспользованоРасхЦелМер.СумОтч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИспИспользованоРасхЦелМер.СумПред">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументЦелИспИспользованоРасхСодАУ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИспИспользованоРасхСодАУ.ОплТруд">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИспИспользованоРасхСодАУ.ВыплНеОТ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИспИспользованоРасхСодАУ.СлужКом">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИспИспользованоРасхСодАУ.ЗданТрансп">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИспИспользованоРасхСодАУ.РемОснСр">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИспИспользованоРасхСодАУ.ВПокСодАУ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИспИспользованоРасхСодАУ.Прочие">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИспИспользованоРасхСодАУ.СумОтч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЦелИспИспользованоРасхСодАУ.СумПред">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументЦелИспОКУД">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументЦелИспОКУД.Item0710006">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументЦелИспОКЕИ">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументЦелИспОКЕИ.Item384">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументЦелИспОКЕИ.Item385">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДополнительныеСведения">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДополнительныеСведения.Амортизация">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДополнительныеСведения.НезавершенноеСтроительство">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДополнительныеСведения.ДолгосрочнаяДебиторскаяЗадолженность">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДополнительныеСведения.КраткосрочнаяДебиторскаяЗадолженность">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДополнительныеСведения.ПросроченнаяДебиторскаяЗадолженность">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДополнительныеСведения.ПросроченнаяКредиторскаяЗадолженность">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДополнительныеСведения.ЗадолженностьУчредителейПоВзносамВУК">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДополнительныеСведения.ФинансовыйЛизинг">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДополнительныеСведения.ПроцентРаспознавания">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДополнительныеСведения.Период">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДополнительныеСведения.ОтчетГод">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДополнительныеСведения.ОКЕИ">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДополнительныеСведенияОКЕИ">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументДополнительныеСведенияОКЕИ.Item384">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументДополнительныеСведенияОКЕИ.Item385">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументРасшифровкиОбеспечений">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументРасшифровкиОбеспечений.ОСВ_008">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументРасшифровкиОбеспечений.ОСВ_009">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументРасшифровкиОбеспечений.ПроцентРаспознавания">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументРасшифровкиОбеспечений.Период">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументРасшифровкиОбеспечений.ОтчетГод">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументРасшифровкиОбеспечений.ОКЕИ">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументРасшифровкиОбеспеченийОКЕИ">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументРасшифровкиОбеспеченийОКЕИ.Item384">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументЗадолженностьПоКредитамЗаймам">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЗадолженностьПоКредитамЗаймам.ОСВ_66">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЗадолженностьПоКредитамЗаймам.ОСВ_67">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЗадолженностьПоКредитамЗаймам.ПроцентРаспознавания">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЗадолженностьПоКредитамЗаймам.Период">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЗадолженностьПоКредитамЗаймам.ОтчетГод">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЗадолженностьПоКредитамЗаймам.ОКЕИ">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументЗадолженностьПоКредитамЗаймамОКЕИ">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументЗадолженностьПоКредитамЗаймамОКЕИ.Item384">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументЛизингОбязательства">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательства.Обязательство">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательства.ПлатСебПредш">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательства.ПроцентРаспознавания">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательства.Период">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательства.ОтчетГод">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательства.ОКЕИ">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументЛизингОбязательстваОбязательство">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательство.Компания">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательство.Договор">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательство.Комментарий">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательство.Продукт">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательство.СуммаПоДоговору">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательство.СуммаПоДоговоруSpecified">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательство.ОстатокПлатежей">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательство.ОстатокПлатежейSpecified">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательство.ВалютаДоговора">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательство.ПроцентнаяСтавка">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательство.ПроцентнаяСтавкаSpecified">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательство.ДатаПоследнегоПлатежа">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательство.УчетОбязательств">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательство.СуммаПлатежейНаСебестоимость">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательство.СуммаПлатежейНаСебестоимостьSpecified">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательство.СуммаДогВал">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательство.СуммаДогВалSpecified">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательство.ОстВал">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательство.ОстВалSpecified">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательство.СуммаПроср">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательство.СуммаПросрSpecified">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательство.Предмет">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументЛизингОбязательстваОбязательствоДоговор">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательствоДоговор.ДатаПлатежа">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательствоДоговор.Номер">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательствоДоговор.Дата">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументЛизингОбязательстваОбязательствоДоговорДатаПлатежа">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательствоДоговорДатаПлатежа.Дата">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательствоДоговорДатаПлатежа.Сумма">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательствоДоговорДатаПлатежа.СуммаSpecified">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательствоДоговорДатаПлатежа.ОснДолг">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательствоДоговорДатаПлатежа.ОснДолгSpecified">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательствоДоговорДатаПлатежа.СуммаВал">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательствоДоговорДатаПлатежа.СуммаВалSpecified">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательствоДоговорДатаПлатежа.ОснДолгВал">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваОбязательствоДоговорДатаПлатежа.ОснДолгВалSpecified">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументЛизингОбязательстваПлат">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваПлат.Год">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваПлат.Квартал">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументЛизингОбязательстваПлат.СуммаПлат">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументЛизингОбязательстваПлатКвартал">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументЛизингОбязательстваПлатКвартал.Item1">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументЛизингОбязательстваПлатКвартал.Item2">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументЛизингОбязательстваПлатКвартал.Item3">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументЛизингОбязательстваПлатКвартал.Item4">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументЛизингОбязательстваОКЕИ">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументЛизингОбязательстваОКЕИ.Item384">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДенежныеСредства">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДенежныеСредства.Анализ_50">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДенежныеСредства.Анализ_51">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДенежныеСредства.Анализ_52">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДенежныеСредства.Анализ_55">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДенежныеСредства.ПроцентРаспознавания">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДенежныеСредства.Период">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДенежныеСредства.ОтчетГод">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДенежныеСредства.ОКЕИ">
+            <remarks/>
+        </member>
+        <member name="T:АнализСчетаСТочностью3ТипСтрокаАнализа">
+            <remarks/>
+        </member>
+        <member name="P:АнализСчетаСТочностью3ТипСтрокаАнализа.Счет">
+            <remarks/>
+        </member>
+        <member name="P:АнализСчетаСТочностью3ТипСтрокаАнализа.Корреспонденция">
+            <remarks/>
+        </member>
+        <member name="T:АнализСчетаСТочностью3ТипСтрокаАнализаСчет">
+            <remarks/>
+        </member>
+        <member name="P:АнализСчетаСТочностью3ТипСтрокаАнализаСчет.Субконто">
+            <remarks/>
+        </member>
+        <member name="P:АнализСчетаСТочностью3ТипСтрокаАнализаСчет.КодСчета">
+            <remarks/>
+        </member>
+        <member name="P:АнализСчетаСТочностью3ТипСтрокаАнализаСчет.НаименованиеСчета">
+            <remarks/>
+        </member>
+        <member name="P:АнализСчетаСТочностью3ТипСтрокаАнализаСчет.ТипСчета">
+            <remarks/>
+        </member>
+        <member name="P:АнализСчетаСТочностью3ТипСтрокаАнализаСчет.КодСчетаР">
+            <remarks/>
+        </member>
+        <member name="P:АнализСчетаСТочностью3ТипСтрокаАнализаСчет.ТипСчетаР">
+            <remarks/>
+        </member>
+        <member name="P:АнализСчетаСТочностью3ТипСтрокаАнализаСчет.ТипСчетаРSpecified">
+            <remarks/>
+        </member>
+        <member name="P:АнализСчетаСТочностью3ТипСтрокаАнализаСчет.КодСчетаРР">
+            <remarks/>
+        </member>
+        <member name="P:АнализСчетаСТочностью3ТипСтрокаАнализаСчет.ТипСчетаРР">
+            <remarks/>
+        </member>
+        <member name="P:АнализСчетаСТочностью3ТипСтрокаАнализаСчет.ТипСчетаРРSpecified">
+            <remarks/>
+        </member>
+        <member name="P:АнализСчетаСТочностью3ТипСтрокаАнализаСчет.СНД">
+            <remarks/>
+        </member>
+        <member name="P:АнализСчетаСТочностью3ТипСтрокаАнализаСчет.СНК">
+            <remarks/>
+        </member>
+        <member name="P:АнализСчетаСТочностью3ТипСтрокаАнализаСчет.ДО">
+            <remarks/>
+        </member>
+        <member name="P:АнализСчетаСТочностью3ТипСтрокаАнализаСчет.КО">
+            <remarks/>
+        </member>
+        <member name="P:АнализСчетаСТочностью3ТипСтрокаАнализаСчет.СКД">
+            <remarks/>
+        </member>
+        <member name="P:АнализСчетаСТочностью3ТипСтрокаАнализаСчет.СКК">
+            <remarks/>
+        </member>
+        <member name="P:АнализСчетаСТочностью3ТипСтрокаАнализаСчет.ПериодГод">
+            <remarks/>
+        </member>
+        <member name="P:АнализСчетаСТочностью3ТипСтрокаАнализаСчет.ПериодМесяц">
+            <remarks/>
+        </member>
+        <member name="T:АнализСчетаСТочностью3ТипСтрокаАнализаСчетСубконто">
+            <remarks/>
+        </member>
+        <member name="P:АнализСчетаСТочностью3ТипСтрокаАнализаСчетСубконто.Item">
+            <remarks/>
+        </member>
+        <member name="T:АнализСчетаСТочностью3ТипСтрокаАнализаСчетСубконтоОсновноеСредство">
+            <remarks/>
+        </member>
+        <member name="P:АнализСчетаСТочностью3ТипСтрокаАнализаСчетСубконтоОсновноеСредство.Наименование">
+            <remarks/>
+        </member>
+        <member name="T:АнализСчетаСТочностью3ТипСтрокаАнализаКорреспонденция">
+            <remarks/>
+        </member>
+        <member name="P:АнализСчетаСТочностью3ТипСтрокаАнализаКорреспонденция.КодСчета">
+            <remarks/>
+        </member>
+        <member name="P:АнализСчетаСТочностью3ТипСтрокаАнализаКорреспонденция.НаименованиеСчета">
+            <remarks/>
+        </member>
+        <member name="P:АнализСчетаСТочностью3ТипСтрокаАнализаКорреспонденция.ТипСчета">
+            <remarks/>
+        </member>
+        <member name="P:АнализСчетаСТочностью3ТипСтрокаАнализаКорреспонденция.КодСчетаР">
+            <remarks/>
+        </member>
+        <member name="P:АнализСчетаСТочностью3ТипСтрокаАнализаКорреспонденция.ТипСчетаР">
+            <remarks/>
+        </member>
+        <member name="P:АнализСчетаСТочностью3ТипСтрокаАнализаКорреспонденция.ТипСчетаРSpecified">
+            <remarks/>
+        </member>
+        <member name="P:АнализСчетаСТочностью3ТипСтрокаАнализаКорреспонденция.КодСчетаРР">
+            <remarks/>
+        </member>
+        <member name="P:АнализСчетаСТочностью3ТипСтрокаАнализаКорреспонденция.ТипСчетаРР">
+            <remarks/>
+        </member>
+        <member name="P:АнализСчетаСТочностью3ТипСтрокаАнализаКорреспонденция.ТипСчетаРРSpecified">
+            <remarks/>
+        </member>
+        <member name="P:АнализСчетаСТочностью3ТипСтрокаАнализаКорреспонденция.ДО">
+            <remarks/>
+        </member>
+        <member name="P:АнализСчетаСТочностью3ТипСтрокаАнализаКорреспонденция.КО">
+            <remarks/>
+        </member>
+        <member name="T:ПериодМесяцТип">
+            <remarks/>
+        </member>
+        <member name="F:ПериодМесяцТип.Item21">
+            <remarks/>
+        </member>
+        <member name="F:ПериодМесяцТип.Item31">
+            <remarks/>
+        </member>
+        <member name="F:ПериодМесяцТип.Item33">
+            <remarks/>
+        </member>
+        <member name="F:ПериодМесяцТип.Item34">
+            <remarks/>
+        </member>
+        <member name="F:ПериодМесяцТип.Item35">
+            <remarks/>
+        </member>
+        <member name="F:ПериодМесяцТип.Item36">
+            <remarks/>
+        </member>
+        <member name="F:ПериодМесяцТип.Item38">
+            <remarks/>
+        </member>
+        <member name="F:ПериодМесяцТип.Item39">
+            <remarks/>
+        </member>
+        <member name="F:ПериодМесяцТип.Item41">
+            <remarks/>
+        </member>
+        <member name="F:ПериодМесяцТип.Item42">
+            <remarks/>
+        </member>
+        <member name="F:ПериодМесяцТип.Item44">
+            <remarks/>
+        </member>
+        <member name="F:ПериодМесяцТип.Item45">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДенежныеСредстваОКЕИ">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументДенежныеСредстваОКЕИ.Item384">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументДенежныеСредстваОКЕИ.Item385">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументОСВ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВ.Счет">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВ.ПроцентРаспознавания">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВ.Период">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВ.ОтчетГод">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВ.ОКЕИ">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументОСВСчет">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВСчет.КодСчета">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВСчет.НаименованиеСчета">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВСчет.ТипСчета">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВСчет.КодСчетаР">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВСчет.ТипСчетаР">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВСчет.ТипСчетаРSpecified">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВСчет.КодСчетаРР">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВСчет.ТипСчетаРР">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВСчет.ТипСчетаРРSpecified">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВСчет.СНД">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВСчет.СНК">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВСчет.ДО">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВСчет.КО">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВСчет.СКД">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВСчет.СКК">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВСчет.Value">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументОСВОКЕИ">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументОСВОКЕИ.Item383">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументОСВПоСчетам">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВПоСчетам.ОСВПоСчету">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВПоСчетам.ПроцентРаспознавания">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВПоСчетам.Период">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВПоСчетам.ОтчетГод">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВПоСчетам.ОКЕИ">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументОСВПоСчетамОСВПоСчету">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВПоСчетамОСВПоСчету.СтрокаОСВ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВПоСчетамОСВПоСчету.КодСчета">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВПоСчетамОСВПоСчету.НаименованиеСчета">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументОСВПоСчетамОСВПоСчетуСтрокаОСВ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВПоСчетамОСВПоСчетуСтрокаОСВ.Счет">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументОСВПоСчетамОСВПоСчетуСтрокаОСВСчет">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВПоСчетамОСВПоСчетуСтрокаОСВСчет.Субконто1">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВПоСчетамОСВПоСчетуСтрокаОСВСчет.Субконто2">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВПоСчетамОСВПоСчетуСтрокаОСВСчет.Субконто3">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВПоСчетамОСВПоСчетуСтрокаОСВСчет.КодСчета">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВПоСчетамОСВПоСчетуСтрокаОСВСчет.НаименованиеСчета">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВПоСчетамОСВПоСчетуСтрокаОСВСчет.ТипСчета">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВПоСчетамОСВПоСчетуСтрокаОСВСчет.КодСчетаР">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВПоСчетамОСВПоСчетуСтрокаОСВСчет.ТипСчетаР">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВПоСчетамОСВПоСчетуСтрокаОСВСчет.ТипСчетаРSpecified">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВПоСчетамОСВПоСчетуСтрокаОСВСчет.КодСчетаРР">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВПоСчетамОСВПоСчетуСтрокаОСВСчет.ТипСчетаРР">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВПоСчетамОСВПоСчетуСтрокаОСВСчет.ТипСчетаРРSpecified">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВПоСчетамОСВПоСчетуСтрокаОСВСчет.СНД">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВПоСчетамОСВПоСчетуСтрокаОСВСчет.СНК">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВПоСчетамОСВПоСчетуСтрокаОСВСчет.ДО">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВПоСчетамОСВПоСчетуСтрокаОСВСчет.КО">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВПоСчетамОСВПоСчетуСтрокаОСВСчет.СКД">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВПоСчетамОСВПоСчетуСтрокаОСВСчет.СКК">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВПоСчетамОСВПоСчетуСтрокаОСВСчет.СрокОплатыПоДоговору">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВПоСчетамОСВПоСчетуСтрокаОСВСчет.ПроцентнаяСтавка">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВПоСчетамОСВПоСчетуСтрокаОСВСчет.ПроцентнаяСтавкаSpecified">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВПоСчетамОСВПоСчетуСтрокаОСВСчет.РежимПогашения">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОСВПоСчетамОСВПоСчетуСтрокаОСВСчет.РежимПогашенияSpecified">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументОСВПоСчетамОСВПоСчетуСтрокаОСВСчетРежимПогашения">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументОСВПоСчетамОСВПоСчетуСтрокаОСВСчетРежимПогашения.ВКЛ">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументОСВПоСчетамОСВПоСчетуСтрокаОСВСчетРежимПогашения.НКЛ">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументОСВПоСчетамОСВПоСчетуСтрокаОСВСчетРежимПогашения.РКЛ">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументОСВПоСчетамОСВПоСчетуСтрокаОСВСчетРежимПогашения.Кредит">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументОСВПоСчетамОСВПоСчетуСтрокаОСВСчетРежимПогашения.Овердрафт">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументОСВПоСчетамОСВПоСчетуСтрокаОСВСчетРежимПогашения.Прочее">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументОСВПоСчетамОКЕИ">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументОСВПоСчетамОКЕИ.Item383">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументАнализСчетов">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетов.АнализСчета">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетов.ПроцентРаспознавания">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетов.Период">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетов.ОтчетГод">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетов.ОКЕИ">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументАнализСчетовАнализСчета">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчета.СтрокаАнализа">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчета.КодСчета">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчета.НаименованиеСчета">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализа">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализа.Счет">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализа.Корреспонденция">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализаСчет">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализаСчет.Субконто1">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализаСчет.Субконто2">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализаСчет.Субконто3">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализаСчет.КодСчета">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализаСчет.НаименованиеСчета">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализаСчет.ТипСчета">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализаСчет.КодСчетаР">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализаСчет.ТипСчетаР">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализаСчет.ТипСчетаРSpecified">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализаСчет.КодСчетаРР">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализаСчет.ТипСчетаРР">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализаСчет.ТипСчетаРРSpecified">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализаСчет.СНД">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализаСчет.СНК">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализаСчет.ДО">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализаСчет.КО">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализаСчет.СКД">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализаСчет.СКК">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализаКорреспонденция">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализаКорреспонденция.КодСчета">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализаКорреспонденция.НаименованиеСчета">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализаКорреспонденция.ТипСчета">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализаКорреспонденция.КодСчетаР">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализаКорреспонденция.ТипСчетаР">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализаКорреспонденция.ТипСчетаРSpecified">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализаКорреспонденция.КодСчетаРР">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализаКорреспонденция.ТипСчетаРР">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализаКорреспонденция.ТипСчетаРРSpecified">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализаКорреспонденция.ДО">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументАнализСчетовАнализСчетаСтрокаАнализаКорреспонденция.КО">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументАнализСчетовОКЕИ">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументАнализСчетовОКЕИ.Item383">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументОперБанкСч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСч.БухгалтерскиеСчета">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСч.СчетУчета">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСч.Период">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСч.ОтчетГод">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСч.ОКЕИ">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументОперБанкСчСчет">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчет.СубСчет">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчет.Код">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчет.Наименование">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчет.Тип">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументОперБанкСчСчетСубСчет">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетСубСчет.СубСубСчет">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетСубСчет.Код">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетСубСчет.Наименование">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетСубСчет.Тип">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументОперБанкСчСчетСубСчетСубСубСчет">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетСубСчетСубСубСчет.Код">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетСубСчетСубСубСчет.Наименование">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетСубСчетСубСубСчет.Тип">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументОперБанкСчСчетУчета">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчета.БанкСч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчета.КодСчета">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчета.СальдоНачальное">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчета.ОборотыДт">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчета.ОборотыКт">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчета.СальдоКонечное">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументОперБанкСчСчетУчетаБанкСч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчетаБанкСч.Операция">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчетаБанкСч.Наименование">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчетаБанкСч.Номер">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчетаБанкСч.БИК">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчетаБанкСч.Банк">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчетаБанкСч.Валюта">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчетаБанкСч.СальдоНачальное">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчетаБанкСч.ОборотыДт">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчетаБанкСч.ОборотыКт">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчетаБанкСч.СальдоКонечное">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчетаБанкСч.СальдоНачальноеВал">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчетаБанкСч.СальдоНачальноеВалSpecified">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчетаБанкСч.ОборотыДтВал">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчетаБанкСч.ОборотыДтВалSpecified">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчетаБанкСч.ОборотыКтВал">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчетаБанкСч.ОборотыКтВалSpecified">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчетаБанкСч.СальдоКонечноеВал">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчетаБанкСч.СальдоКонечноеВалSpecified">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументОперБанкСчСчетУчетаБанкСчОперация">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчетаБанкСчОперация.Контрагент">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчетаБанкСчОперация.Дата">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчетаБанкСчОперация.ДокНомер">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчетаБанкСчОперация.ДокДата">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчетаБанкСчОперация.ВидОперации">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчетаБанкСчОперация.Назначение">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчетаБанкСчОперация.СчетДт">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчетаБанкСчОперация.СчетКт">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчетаБанкСчОперация.Сумма">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчетаБанкСчОперация.СуммаВал">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчетаБанкСчОперация.СуммаВалSpecified">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументОперБанкСчСчетУчетаБанкСчОперацияКонтрагент">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчетаБанкСчОперацияКонтрагент.Наименование">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчетаБанкСчОперацияКонтрагент.ИНН">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчетаБанкСчОперацияКонтрагент.КПП">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументОперБанкСчСчетУчетаБанкСчОперацияКонтрагент.Договор">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументОперБанкСчОКЕИ">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументОперБанкСчОКЕИ.Item383">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПрочДохРасх">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочДохРасх.Доходы">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочДохРасх.Расходы">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочДохРасх.ПроцентРаспознавания">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочДохРасх.Период">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочДохРасх.ОтчетГод">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочДохРасх.ОКЕИ">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПрочДохРасхДоходы">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочДохРасхДоходы.ПоСтатье">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочДохРасхДоходы.Итого">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПрочДохРасхДоходыПоСтатье">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочДохРасхДоходыПоСтатье.Наим">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочДохРасхДоходыПоСтатье.Сумма">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПрочДохРасхРасходы">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочДохРасхРасходы.ПоСтатье">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочДохРасхРасходы.Итого">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПрочДохРасхРасходыПоСтатье">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочДохРасхРасходыПоСтатье.Наим">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочДохРасхРасходыПоСтатье.Сумма">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПрочДохРасхОКЕИ">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументПрочДохРасхОКЕИ.Item384">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументПрочДохРасхОКЕИ.Item385">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументРасшФинВлож">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументРасшФинВлож.ФинВложКср">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументРасшФинВлож.ФинВложДср">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументРасшФинВлож.ПроцентРаспознавания">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументРасшФинВлож.Период">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументРасшФинВлож.ОтчетГод">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументРасшФинВлож.ОКЕИ">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументРасшФинВложОКЕИ">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументРасшФинВложОКЕИ.Item384">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументСтруктВыр">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументСтруктВыр.Выручка">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументСтруктВыр.ВыручкаВал">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументСтруктВыр.ПроцентРаспознавания">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументСтруктВыр.Период">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументСтруктВыр.ОтчетГод">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументСтруктВыр.ОКЕИ">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументСтруктВырВыручка">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументСтруктВырВыручка.ГосЗакФО">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументСтруктВырВыручка.ГосЗакСРФ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументСтруктВырВыручка.РегВидДеят">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументСтруктВырВыручка.ПостТрансф">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументСтруктВырВыручка.Итого">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументСтруктВырВыручкаВал">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументСтруктВырВыручкаВал.Валюта">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументСтруктВырВыручкаВал.СумРуб">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументСтруктВырВыручкаВал.СумВал">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументСтруктВырОКЕИ">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументСтруктВырОКЕИ.Item384">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПрочиеПоказатели">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказатели.СреднЧисл">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказатели.ФОТ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказатели.ВыплЗарпл">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказатели.ПросрЗарпл">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказатели.НезСтр">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказатели.ИзмДоч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказатели.ДоляФО">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказатели.ДоляСубРФ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказатели.ИзмСост">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказатели.ПозРынк">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказатели.ЗадКонтрУкр">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказатели.КорпДог">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказатели.ИзмУстав">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказатели.ОбПФИ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказатели.ПроцентРаспознавания">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказатели.Период">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказатели.ОтчетГод">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказатели.ОКЕИ">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПрочиеПоказателиСреднЧисл">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказателиСреднЧисл.Величина">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказателиСреднЧисл.Коммент">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПрочиеПоказателиФОТ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказателиФОТ.Величина">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказателиФОТ.Коммент">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПрочиеПоказателиВыплЗарпл">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказателиВыплЗарпл.Величина">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказателиВыплЗарпл.Коммент">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПрочиеПоказателиПросрЗарпл">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказателиПросрЗарпл.Признак">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказателиПросрЗарпл.Коммент">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПрочиеПоказателиПросрЗарплПризнак">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументПрочиеПоказателиПросрЗарплПризнак.Item0">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументПрочиеПоказателиПросрЗарплПризнак.Item1">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПрочиеПоказателиНезСтр">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказателиНезСтр.Величина">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказателиНезСтр.ОтрБал">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказателиНезСтр.Коммент">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПрочиеПоказателиИзмДоч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказателиИзмДоч.Признак">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказателиИзмДоч.Коммент">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПрочиеПоказателиИзмДочПризнак">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументПрочиеПоказателиИзмДочПризнак.Item0">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументПрочиеПоказателиИзмДочПризнак.Item1">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПрочиеПоказателиДоляФО">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказателиДоляФО.Числ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказателиДоляФО.Знам">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказателиДоляФО.Коммент">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПрочиеПоказателиДоляСубРФ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказателиДоляСубРФ.Числ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказателиДоляСубРФ.Знам">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказателиДоляСубРФ.Коммент">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПрочиеПоказателиИзмСост">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказателиИзмСост.Признак">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказателиИзмСост.Коммент">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПрочиеПоказателиИзмСостПризнак">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументПрочиеПоказателиИзмСостПризнак.Item0">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументПрочиеПоказателиИзмСостПризнак.Item1">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПрочиеПоказателиПозРынк">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказателиПозРынк.Величина">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказателиПозРынк.Коммент">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПрочиеПоказателиЗадКонтрУкр">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказателиЗадКонтрУкр.Признак">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказателиЗадКонтрУкр.Коммент">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПрочиеПоказателиЗадКонтрУкрПризнак">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументПрочиеПоказателиЗадКонтрУкрПризнак.Item0">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументПрочиеПоказателиЗадКонтрУкрПризнак.Item1">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПрочиеПоказателиКорпДог">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказателиКорпДог.Признак">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказателиКорпДог.Коммент">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПрочиеПоказателиКорпДогПризнак">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументПрочиеПоказателиКорпДогПризнак.Item0">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументПрочиеПоказателиКорпДогПризнак.Item1">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПрочиеПоказателиИзмУстав">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказателиИзмУстав.Признак">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказателиИзмУстав.Коммент">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПрочиеПоказателиИзмУставПризнак">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументПрочиеПоказателиИзмУставПризнак.Item0">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументПрочиеПоказателиИзмУставПризнак.Item1">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПрочиеПоказателиОбПФИ">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказателиОбПФИ.Признак">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументПрочиеПоказателиОбПФИ.Коммент">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПрочиеПоказателиОбПФИПризнак">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументПрочиеПоказателиОбПФИПризнак.Item0">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументПрочиеПоказателиОбПФИПризнак.Item1">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументПрочиеПоказателиОКЕИ">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументПрочиеПоказателиОКЕИ.Item384">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолж">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолж.Интервалы">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолж.ДебДср">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолж.ДебКср">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолж.КредДср">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолж.КредКср">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолж.ПроцентРаспознавания">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолж.Период">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолж.ОтчетГод">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолж.ОКЕИ">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжИнтервалыИнтервал">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжИнтервалыИнтервал.Код">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжИнтервалыИнтервал.Начало">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжИнтервалыИнтервал.Окончание">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВид">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВид.Задолж">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВид.Итого">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВид.Вид">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВидЗадолж">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолж.Контрагент">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагент">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагент.Договор">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагент.Наим">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагент.ИНН">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагент.КПП">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагент.ДатаВозн">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагент.Общая">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагент.ОбщаяSpecified">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор.ПоСроку">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор.Наим">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор.Номер">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор.Дата">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор.ДатаВозн">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор.Общая">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор.Просроч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор.ПросрочSpecified">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор.Резерв">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор.РезервSpecified">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговорПоСроку">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговорПоСроку.Код">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговорПоСроку.Задолж">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговорПоСроку.ЗадолжSpecified">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВидИтого">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтого.ПоСроку">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтого.Общая">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтого.ОбщаяSpecified">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтого.Просроч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтого.ПросрочSpecified">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтого.Резерв">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтого.РезервSpecified">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВидИтогоПоСроку">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтогоПоСроку.Код">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтогоПоСроку.Задолж">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтогоПоСроку.ЗадолжSpecified">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВидВид">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументДебКредЗадолжЗадолжВидВид.Item1">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументДебКредЗадолжЗадолжВидВид.Item2">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументДебКредЗадолжЗадолжВидВид.Item3">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументДебКредЗадолжЗадолжВидВид.Item4">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВид1">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВид1.Задолж">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВид1.Итого">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВид1.Вид">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВидЗадолж1">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолж1.Item">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагент1">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагент1.Договор">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагент1.Наим">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагент1.ИНН">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагент1.КПП">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагент1.ДатаВозн">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагент1.Общая">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагент1.ОбщаяSpecified">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор1">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор1.ПоСроку">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор1.Наим">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор1.Номер">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор1.Дата">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор1.ДатаВозн">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор1.Общая">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор1.Просроч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор1.ПросрочSpecified">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор1.Резерв">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор1.РезервSpecified">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговорПоСроку1">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговорПоСроку1.Код">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговорПоСроку1.Задолж">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговорПоСроку1.ЗадолжSpecified">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВидЗадолжПрочее">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжПрочее.Наим">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжПрочее.ДатаВозн">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжПрочее.Общая">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжПрочее.ОбщаяSpecified">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВидИтого1">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтого1.ПоСроку">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтого1.Общая">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтого1.ОбщаяSpecified">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтого1.Просроч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтого1.ПросрочSpecified">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтого1.Резерв">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтого1.РезервSpecified">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВидИтогоПоСроку1">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтогоПоСроку1.Код">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтогоПоСроку1.Задолж">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтогоПоСроку1.ЗадолжSpecified">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВидВид1">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументДебКредЗадолжЗадолжВидВид1.Item1">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументДебКредЗадолжЗадолжВидВид1.Item2">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументДебКредЗадолжЗадолжВидВид1.Item3">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументДебКредЗадолжЗадолжВидВид1.Item4">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументДебКредЗадолжЗадолжВидВид1.Item5">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументДебКредЗадолжЗадолжВидВид1.Item6">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВид2">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВид2.Задолж">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВид2.Итого">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВид2.Вид">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВидЗадолж2">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолж2.Контрагент">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагент2">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагент2.Договор">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагент2.Наим">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагент2.ИНН">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагент2.КПП">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагент2.ДатаВозн">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагент2.Общая">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагент2.ОбщаяSpecified">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор2">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор2.ПоСроку">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор2.Наим">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор2.Номер">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор2.Дата">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор2.ДатаВозн">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор2.Общая">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор2.Просроч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор2.ПросрочSpecified">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговорПоСроку2">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговорПоСроку2.Код">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговорПоСроку2.Задолж">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговорПоСроку2.ЗадолжSpecified">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВидИтого2">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтого2.ПоСроку">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтого2.Общая">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтого2.ОбщаяSpecified">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтого2.Просроч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтого2.ПросрочSpecified">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВидИтогоПоСроку2">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтогоПоСроку2.Код">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтогоПоСроку2.Задолж">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтогоПоСроку2.ЗадолжSpecified">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВидВид2">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументДебКредЗадолжЗадолжВидВид2.Item1">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументДебКредЗадолжЗадолжВидВид2.Item2">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументДебКредЗадолжЗадолжВидВид2.Item3">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументДебКредЗадолжЗадолжВидВид2.Item4">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВид3">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВид3.Задолж">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВид3.Итого">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВид3.Вид">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВидЗадолж3">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолж3.Item">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагент3">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагент3.Договор">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагент3.Наим">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагент3.ИНН">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагент3.КПП">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагент3.ДатаВозн">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагент3.Общая">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагент3.ОбщаяSpecified">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор3">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор3.ПоСроку">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор3.Наим">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор3.Номер">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор3.Дата">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор3.ДатаВозн">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор3.Общая">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор3.Просроч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговор3.ПросрочSpecified">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговорПоСроку3">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговорПоСроку3.Код">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговорПоСроку3.Задолж">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжКонтрагентДоговорПоСроку3.ЗадолжSpecified">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВидЗадолжПрочее1">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжПрочее1.Наим">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжПрочее1.ДатаВозн">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжПрочее1.Общая">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидЗадолжПрочее1.ОбщаяSpecified">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВидИтого3">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтого3.ПоСроку">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтого3.Общая">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтого3.ОбщаяSpecified">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтого3.Просроч">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтого3.ПросрочSpecified">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВидИтогоПоСроку3">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтогоПоСроку3.Код">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтогоПоСроку3.Задолж">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДебКредЗадолжЗадолжВидИтогоПоСроку3.ЗадолжSpecified">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжЗадолжВидВид3">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументДебКредЗадолжЗадолжВидВид3.Item1">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументДебКредЗадолжЗадолжВидВид3.Item2">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументДебКредЗадолжЗадолжВидВид3.Item3">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументДебКредЗадолжЗадолжВидВид3.Item4">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументДебКредЗадолжЗадолжВидВид3.Item5">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументДебКредЗадолжЗадолжВидВид3.Item6">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДебКредЗадолжОКЕИ">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументДебКредЗадолжОКЕИ.Item383">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументДебКредЗадолжОКЕИ.Item384">
+            <remarks/>
+        </member>
+        <member name="F:ФайлДокументДебКредЗадолжОКЕИ.Item385">
+            <remarks/>
+        </member>
+        <member name="T:ФайлДокументДопФайл">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДопФайл.ИмяФайла">
+            <remarks/>
+        </member>
+        <member name="P:ФайлДокументДопФайл.Value">
+            <remarks/>
+        </member>
+        <member name="T:ФайлВерсФорм">
+            <remarks/>
+        </member>
+        <member name="F:ФайлВерсФорм.Item508ABI">
+            <remarks/>
+        </member>
+        <member name="T:DocumentsRules.Doc_3_341">
+            <summary>
+            Отчет о целевом использовании средств
+            </summary>
+        </member>
+        <member name="M:Utils.FieldRules.DateFormat(System.String@)">
+            <summary>
+            преобразуем дату
+            </summary>
+            <param name="date"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Utils.FieldRules.TryParseDate(System.String@,System.DateTime@)">
+            <summary>
+            пробуем получить дату
+            </summary>
+            <param name="s"></param>
+            <param name="result"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Utils.ExportXML.k">
+            <summary>
+            Возвращает разделитель текущей машины
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Utils.ExportXML.hasitem(System.Int32,System.Collections.Generic.List{System.Int32})">
+            <summary>
+            Проверяет наличие индекса в списке индексов
+            </summary>
+            <param name="data"></param>
+            <param name="plist"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Utils.ExportXML.Parsing(ABBYY.FlexiCapture.IDocument,ABBYY.FlexiCapture.IProcessingCallback,ABBYY.FlexiCapture.IExportImageSavingOptions,System.String,System.Boolean)">
+            <summary>
+            Метод экспорта документов по XSD схеме
+            </summary>
+            <param name="Document"></param>
+            <param name="Processing"></param>
+            <param name="iso"></param>
+            <param name="ExpPath"></param>
+            <param name="NeedOrigins"></param>
+        </member>
+        <member name="M:Utils.ExportXML.ExportOriginals(ABBYY.FlexiCapture.IDocument,ABBYY.FlexiCapture.IProcessingCallback,System.String)">
+            <summary>
+            Метод экспорта оригиналов изображений
+            </summary>
+            <param name="Document"></param>
+            <param name="Processing"></param>
+            <param name="ExpPath"></param>
+        </member>
+        <member name="M:Utils.ExportXML.ExportPDF(ABBYY.FlexiCapture.IDocument,ABBYY.FlexiCapture.IProcessingCallback,ABBYY.FlexiCapture.IExportImageSavingOptions,System.String)">
+            <summary>
+            Метод экспортирует PDF с текстовым слоем
+            </summary>
+            <param name="Document"></param>
+            <param name="Processing"></param>
+            <param name="iso"></param>
+            <param name="ExpPath"></param>
+        </member>
+        <member name="M:Utils.ExportXML.Puttxt(ABBYY.FlexiCapture.IDocument,ABBYY.FlexiCapture.IProcessingCallback,System.String,System.String)">
+            <summary>
+            Сохраняет файл с заданым названием в папке экспорта
+            </summary>
+            <param name="Document"></param>
+            <param name="Processing"></param>
+            <param name="filename"></param>
+            <param name="ExpPath"></param>
+        </member>
+        <member name="M:Utils.ExportXML.Puttxtstatus(ABBYY.FlexiCapture.IDocument,System.String,System.String)">
+            <summary>
+            Сохраняет тхт файл с заданным именем.  
+            </summary>
+            <param name="Document"></param>
+            <param name="filename">имя файла</param>
+            <param name="ExpPath">необязательный параметр по которому выгружать файл</param>
+        </member>
+        <member name="M:Utils.ExportXML.ExportNonRecognisedOriginals(ABBYY.FlexiCapture.IDocument,ABBYY.FlexiCapture.IProcessingCallback,System.String)">
+            <summary>
+            Экспорт нераспознанных документов
+            </summary>
+            <param name="Document"></param>
+            <param name="Processing"></param>
+            <param name="ExpPath"></param>
+        </member>
+        <member name="M:Utils.Date.ValidateAndFixDate(ABBYY.FlexiCapture.IRuleContext)">
+            <summary>
+            Проверяет дату на валидность и приводит к формату, если это возможно
+            </summary>
+            <param name="context">принимает на вход контекст скрипта(IRuleContext)</param>
+        </member>
+        <member name="M:Utils.Date.IsValidDate(ABBYY.FlexiCapture.IRuleContext)">
+            <summary>
+            Проверка даты: Дата документа должна быть в формате ДД.ММ.ГГГГ и не позднее текущей даты. 
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:Utils.Date.DateFormat(System.String@)">
+            <summary>
+            форматирование даты
+            </summary>
+            <param name="date"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Utils.Date.SetError(ABBYY.FlexiCapture.IRuleContext,System.String,System.String,System.String[])">
+            <summary>
+            Устанавливает CheckSucceeded = false, задает сообщение errorMsg, 
+            и выставляет HasRuleError = true только для переданных полей.
+            </summary>
+            <param name="context">Контекст правил</param>
+            <param name="errorMsg">Текст ошибки</param>
+            <param name="focusField">Поле для установки фокуса в ошибке</param>
+            <param name="errorFields">Поля для включения в ошибку</param>
+        </member>
+        <member name="M:Utils.Formating.LettersAndNumbers(System.String)">
+            <summary>
+            Функция очистки строки 
+            в поле остаются только буквы rus+eng во всех регистрах и цифры
+            </summary>
+            <param name="Context"></param>
+            <returns></returns>//
+        </member>
+        <member name="M:Utils.Region.FocusOn(ABBYY.FlexiCapture.IRuleContext,System.String,System.String)">
+            <summary>
+            Фокусирует регион одного поля на другое
+            </summary>
+            <param name="Context">Контекст</param>
+            <param name="fieldfrom">Поле с которого нужно взять регион</param>
+            <param name="fieldto">Поле которому нцужно указать регион</param>
+        </member>
+        <member name="M:Utils.TextFormat.FormatText(ABBYY.FlexiCapture.IRuleContext)">
+            <summary>
+            Функция нормализации длинны строки (делает переносы строк в длинных полях)
+            поле считается длинным если >70 
+            ищет пробел в промежутке от 55 до 70 символа и делает перенос строки
+            </summary>
+            <param name="Context"></param>
+            <returns></returns>//
+        </member>
+        <member name="T:Utils.SummFormat">
+            <summary>
+            Метод для работы с датой
+            </summary>
+        </member>
+        <member name="M:Utils.SummFormat.ValiSumm(System.String)">
+            <summary>
+            Форматирует суммы
+            </summary>
+            <param name="summ"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Utils.SummFormat.SummFix(System.String)">
+            <summary>
+            Форматирование суммы по красоте
+            </summary>
+            <param name="summ"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Utils.GetFields.gettabledata(ABBYY.FlexiCapture.IDocument,ABBYY.FlexiCapture.IProcessingCallback,System.String,System.String)">
+            <summary>
+            Метод получения значения ячейки таблицы по коду и названию столбца
+            </summary>
+            <param name="Document"></param>
+            <param name="Processing"></param>
+            <param name="kod"></param>
+            <param name="col"></param>
+            <returns>возвращает значение ячейки</returns>
+        </member>
+        <member name="M:Utils.GetFields.hastabledata(ABBYY.FlexiCapture.IDocument,ABBYY.FlexiCapture.IProcessingCallback,System.String)">
+            <summary>
+            Проверка существования ячйки
+            </summary>
+            <param name="Document"></param>
+            <param name="Processing"></param>
+            <param name="kod"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Utils.GetFields.GetField(ABBYY.FlexiCapture.IDocument,ABBYY.FlexiCapture.IProcessingCallback,System.String)">
+            <summary>
+            метод возвращает значение поля, при его наличии
+            </summary>
+            <param name="Document"></param>
+            <param name="Processing"></param>
+            <param name="name"></param>
+            <returns>значение поля или пустое значение</returns>
+        </member>
+        <member name="M:Utils.GetFields.GetCellWhere(ABBYY.FlexiCapture.IDocument,ABBYY.FlexiCapture.IProcessingCallback,System.String,System.String,System.String,System.String)">
+            <summary>
+            Метод возвращает значение ячейки колонки таблицы по найденому тексту в любой колонке
+            если нет значения возвращает null
+            </summary>
+            <param name="Document"></param>
+            <param name="Processing"></param>
+            <param name="tablename">Название таблицы</param>
+            <param name="searchtext">искомый текст</param>
+            <param name="column">Колонка в которой искать</param>
+            <param name="ReturnColumn">колонку которую вернуть</param>
+            <returns>Text or null</returns>
+        </member>
+        <member name="M:Utils.GetFields.GetTableParagraph(ABBYY.FlexiCapture.IDocument,ABBYY.FlexiCapture.IProcessingCallback,System.String,System.String)">
+            <summary>
+            Метод ищет в столбце таблицы значение длинее 5 символов и возвращает индексы строк списком
+            </summary>
+            <param name="Document"></param>
+            <param name="Processing"></param>
+            <param name="tablename">Название таблицы в которой ищем параграфы</param>
+            <param name="column">столбец в котором нужно искать заголовки параграфа</param>
+            <returns>Список (List) индексов строк заголовков параграфов таблицы</returns>
+        </member>
+        <member name="M:Utils.GetFields.GetCellByIndexWhere(ABBYY.FlexiCapture.IDocument,ABBYY.FlexiCapture.IProcessingCallback,System.String,System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Метод возвращает значение ячейки относительно найденого текста в другой ячейке. 
+            Поиск выполняется по параграфу таблицы, заданному номерами строк
+            </summary>
+            <param name="Document"></param>
+            <param name="Processing"></param>
+            <param name="tablename">Название таблицы в которой осуществляется поиск</param>
+            <param name="searchtext">искомый текст</param>
+            <param name="column">колонка в которой ищем значение</param>
+            <param name="ReturnColumn">имя столбца, значение ячейки которого надо вернуть</param>
+            <param name="start">индекс первой строки параграфа</param>
+            <param name="end">индекс последней строки параграфа</param>
+            <returns>значение ячейки</returns>
+        </member>
+        <member name="M:Utils.GetFields.GetCellByIndex(ABBYY.FlexiCapture.IDocument,ABBYY.FlexiCapture.IProcessingCallback,System.String,System.String,System.Int32)">
+            <summary>
+            возвращает значение ячайки по названию столбца и индексу строки
+            </summary>
+            <param name="Document"></param>
+            <param name="Processing"></param>
+            <param name="tablename">Название таблицы</param>
+            <param name="column">Название столбца</param>
+            <param name="index">Индекс строки</param>
+            <returns></returns>
+        </member>
+        <member name="M:Utils.GetFields.GetTableRowsWhereRegex(ABBYY.FlexiCapture.IDocument,ABBYY.FlexiCapture.IProcessingCallback,System.String,System.String,System.Text.RegularExpressions.Regex,System.Int32,System.Int32)">
+            <summary>
+            Метод возвращает список индексов строк, где указаный столбец прошел точное соответсвие регулярному выражению
+            </summary>
+            <param name="Document"></param>
+            <param name="Processing"></param>
+            <param name="tablename">название таблицы</param>
+            <param name="column">колонка в которой проверяется соответсвие</param>
+            <param name="regex">Регулярное выражение</param>
+            <param name="start"></param>
+            <param name="end"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Utils.GetFields.GetTableParagraphWhereCellsNotMachText(ABBYY.FlexiCapture.IDocument,ABBYY.FlexiCapture.IProcessingCallback,System.String,System.String,System.Collections.Generic.List{System.String})">
+            <summary>
+            Возвращает список строк таблицы не содержащих слова из списка
+            </summary>
+            <param name="Document"></param>
+            <param name="Processing"></param>
+            <param name="tablename"></param>
+            <param name="column"></param>
+            <param name="words">список слов</param>
+            <returns></returns>
+        </member>
+        <member name="M:Utils.GetFields.HasWordsInColumn(ABBYY.FlexiCapture.IRuleContext,System.String,System.Collections.Generic.List{System.String})">
+            <summary>
+            Проверяет наличие слов в столбце
+            </summary>
+            <param name="Document"></param>
+            <param name="Processing"></param>
+            <param name="tablename"></param>
+            <param name="column"></param>
+            <param name="words"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SBK.NalRes.DecisionReason(ABBYY.FlexiCapture.IRuleContext)">
+            <summary>
+            Метод выдает выпадающий список с значениями причины решения в зависимости от распознаной галки (и проставляет значение по умолчанию)
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:StageTools.Forcematch.has(System.String,System.String[])">
+            <summary>
+            Метод проверяет есть ли указанный класс в списке Определений для наложения
+            </summary>
+            <param name="clas">класс</param>
+            <param name="DefList">список ОД</param>
+            <returns>true или false</returns>
+        </member>
+        <member name="M:StageTools.Forcematch.IsReference(System.String,System.String[])">
+             <summary>
+            метод выбирает только те ОД которые содержат искомый текст (например результирующий класс)
+             </summary>
+             <param name="clas">любой текст который будем искать в списке ОД</param>
+             <param name="DefList">список ОД</param>
+             <returns>массив ОД с совпадениями (без всяких разделителей)</returns>
+        </member>
+        <member name="M:StageTools.Forcematch.Beforematching(ABBYY.FlexiCapture.IDocument,System.Int32,ABBYY.FlexiCapture.IMatchingInfo)">
+            <summary>
+            Метод проверяет есть ли ОД с таким классом и накладывает его, а если такого нет, то накладывает Документ
+            </summary>
+            <param name="Document"></param>
+            <param name="PageIndex"></param>
+            <param name="Matching"></param>
+        </member>
+        <member name="M:StageTools.RoutingRule.NeedVerification(ABBYY.FlexiCapture.IDocument,ABBYY.FlexiCapture.IRoutingRuleResult)">
+            <summary>
+            Допускает на этап, если есть ошибки правил, сборки или количество неуверенных символов >0
+            выкидывает файлик Verification
+            </summary>
+            <param name="Document"></param>
+            <param name="Result"></param>
+        </member>
+    </members>
+</doc>

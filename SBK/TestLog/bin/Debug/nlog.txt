@@ -1,0 +1,6 @@
+2018/05/08 21:49:11.814|Trace|logger.Trace
+2018/05/08 21:49:11.849|Debug|logger.Debug
+2018/05/08 21:49:11.849|Info|logger.Info
+2018/05/08 21:49:11.849|Warn|logger.Warn
+2018/05/08 21:49:11.849|Error|logger.Error
+2018/05/08 21:49:11.854|Fatal|logger.Fatal
